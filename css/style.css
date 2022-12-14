@@ -58,3 +58,11 @@ body{
     border: 1px solid #000000;
     border-radius: 5px;
 }
+
+.red{
+    background-color: #ff0000;
+}
+
+.event-null{
+    pointer-events: none;
+}

@@ -18,8 +18,9 @@ body{
 .container{
     width: 1000px;
     height: 1000px;
-    margin: 50px auto;
-    background-color: #ffffff;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 #play-btn{
@@ -28,6 +29,7 @@ body{
     transition: 0.5s;
     border-radius: 5px;
     padding: 5px 10px;
+    margin-right: 50px;
 }
 
 .square{
@@ -43,8 +45,16 @@ body{
 .grid{
     display: flex;
     flex-wrap: wrap;
+    width: 700px;
+    height: 700px;
 }
 
 .clicked{
     background-color: #0000ff;
+}
+
+#levels{
+    padding: 5px 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
 }
